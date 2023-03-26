@@ -1,0 +1,7 @@
+custom_stopwords2.txt
+mails/
+cluster/
+*_preprocessed/
+*_tmp/
+old/
+__pycache__/
