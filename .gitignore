@@ -1,6 +1,7 @@
 custom_stopwords2.txt
 mails/
 cluster/
+clusters/
 *_preprocessed/
 *_tmp/
 old/

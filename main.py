@@ -29,7 +29,7 @@ def main():
             preprocess.preprocess(options.input, tmp_folder)
         options.input = tmp_folder
 
-    cluster.cluster(options.number, options.input, options.output,
+    cluster.cluster(int(options.number), options.input, options.output,
                     [options.stopwords], verbose=options.verbose, compute_variance=options.estimate)
 
 
